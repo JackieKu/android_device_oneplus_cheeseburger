@@ -253,7 +253,20 @@ lib/libopcamera_crypt.so
 lib/libopcamera_native_modules.so
 lib/libopcamera.so
 lib/libopcameralib.so
+lib/libopbaselib.so
+lib/libfilter-sdk.so
+lib/libcameraservice.so
+lib64/libopcamera.so
+lib64/libopcameralib.so
+lib64/libopbaselib.so
+lib64/libfilter-sdk.so
+lib64/libcameraservice.so
 lib/libSensorManagerHAL.so
+
+# Camera Stock Apps
+-priv-app/OnePlusCamera/OnePlusCamera.apk
+-priv-app/OnePlusCameraService/OnePlusCameraService.apk
+-priv-app/OnePlusGallery/OnePlusGallery.apk
 
 # Camera / DSP - Hexagon libraries
 lib/rfsa/adsp/libVDHexagonBlurless_skel.so
